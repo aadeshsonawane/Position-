@@ -7,7 +7,7 @@
 .box2 {
     width: 80%;
     height: 500px;
-    /* border: 1px solid black; */
+    border: 1px solid rgb(57, 231, 13);
     margin: 2px auto;
     background-image: url(/assets/pexels-eberhardgross-1421903.jpg);
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 }
 
 .box2 div {
-    /* border: 1px solid greenyellow; */
+    border: 1px solid greenyellow;
     width: 40%;
     /* margin: 200px auto; */
     text-align: center;
@@ -50,7 +50,7 @@
 /* Assignment 3 */
 
 .box3 {
-    /* border: 1px solid rgb(19, 18, 18); */
+    border: 1px solid rgb(19, 18, 18);
     width: 60%;
     height: 500px;
     margin: 10px auto;
@@ -59,7 +59,7 @@
 }
 
 .box3 .whiteBox {
-    /* border: 1px solid rgb(15, 15, 15); */
+    border: 1px solid rgb(15, 15, 15);
     width: 80%;
     position: absolute;
     left: 10%;
@@ -72,7 +72,7 @@
 }
 
 .whiteBox .text {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 50%;
     height: 200px;
     position: absolute;
@@ -82,14 +82,14 @@
 }
 
 .whiteBox .logoBar {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: 40px;
     display: flex;
     justify-content: space-between;
 }
 
 .logoBar div {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 40px;
     height: 100%;
     padding: 5px;
@@ -123,18 +123,34 @@
 }
 
 .whiteBox .photo {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     position: absolute;
     width: auto;
-    height: auto;
-    right: 50px;
-    top: 40px;
+    height: 425px;
+    right: 40px;
+    top: 47px;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .photo img {
     width: 270px;
     height: 432px;
 
+}
+.whiteBox .shadow{
+    border: 1px solid black;
+    width: 260px;
+    height: 230px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    overflow: hidden;
+}
+.shadow .shadowimg{
+    width: 100%;
+    
+    
 }
 
 /* Assignment 4 css */
@@ -176,7 +192,7 @@
 
 .div0 .the {
     font-size: 3rem;
-    margin: 0px;
+
 }
 
 .div0 button {
@@ -212,7 +228,9 @@
     background-color: #0063a6;
     border-radius: 10px;
     margin-bottom: 40px;
+    transform: skew(-20deg);
 }
+
 
 .div1 .divBoxL {
     width: 100%;
@@ -232,6 +250,7 @@
     border-radius: 5px;
     color: white;
     position: relative;
+    
 }
 
 .div1 .divBoxL .blueBox p{
@@ -251,3 +270,11 @@
     height: 100%;
 }
 
+/* assingment 1 */
+
+.ass1{
+    border: 1px solid black;
+    width: 60%;
+    margin: 10px auto;
+    height: 500px;
+}
