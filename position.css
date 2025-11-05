@@ -277,4 +277,42 @@
     width: 60%;
     margin: 10px auto;
     height: 500px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.596);
 }
+.one{
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    position: static;
+    background-color: #0063a6;
+    position: static;
+}
+.two{
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fca000;
+}
+.three{
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.four{
+    border: 1px solid black;
+    width: 10%;
+    height: 100px;
+    background-color: brown;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
