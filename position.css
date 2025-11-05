@@ -292,10 +292,10 @@
     border: 1px solid black;
     width: 20%;
     height: 200px;
-    position: relative;
-    top: 0;
-    left: 0;
+    position: absolute;
+    right: 0px;
     background-color: #fca000;
+    z-index:1 ;
 }
 .three{
     border: 1px solid black;
